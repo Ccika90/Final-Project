@@ -455,8 +455,8 @@
       <column caption='Week' datatype='integer' name='[week]' role='dimension' type='quantitative' />
       <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
       <column-instance column='[order_priority]' derivation='None' name='[none:order_priority:nk]' pivot='key' type='nominal' />
-      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='false' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/umehc/AppData/Local/Temp/TableauTemp/#TableauTemp_1vao2is189d7la1c5n6as0s03jy5.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/08/2025 04:25:24 AM' username='tableau_internal_user'>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/umehc/AppData/Local/Temp/TableauTemp/#TableauTemp_0s2n11f1ahwg5g13vmzek11du6cn.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/08/2025 03:29:58 PM' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
             <metadata-record class='column'>
@@ -966,6 +966,9 @@
           <style-rule element='header'>
             <format attr='height-header' value='18' />
           </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1s5bz1w0ldufj31d5ez9w1wsyqss].[none:description:nk]' value='-90' />
+          </style-rule>
           <style-rule element='title'>
             <format attr='border-style' value='solid' />
           </style-rule>
@@ -1057,6 +1060,9 @@
           <style-rule element='cell'>
             <format attr='width' field='[federated.1s5bz1w0ldufj31d5ez9w1wsyqss].[:Measure Names]' value='111' />
           </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1s5bz1w0ldufj31d5ez9w1wsyqss].[:Measure Names]' value='-90' />
+          </style-rule>
           <style-rule element='title'>
             <format attr='border-style' value='solid' />
           </style-rule>
@@ -1123,6 +1129,9 @@
         <style>
           <style-rule element='cell'>
             <format attr='width' field='[federated.1s5bz1w0ldufj31d5ez9w1wsyqss].[none:country:nk]' value='78' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1s5bz1w0ldufj31d5ez9w1wsyqss].[none:country:nk]' value='-90' />
           </style-rule>
           <style-rule element='title'>
             <format attr='border-style' value='solid' />
@@ -1197,6 +1206,9 @@
         <style>
           <style-rule element='cell'>
             <format attr='width' field='[federated.1s5bz1w0ldufj31d5ez9w1wsyqss].[none:country:nk]' value='72' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1s5bz1w0ldufj31d5ez9w1wsyqss].[none:country:nk]' value='-90' />
           </style-rule>
           <style-rule element='title'>
             <format attr='border-style' value='solid' />
@@ -1359,7 +1371,7 @@
             </zone>
             <zone h='91298' id='7' param='horz' type-v2='layout-flow' w='99018' x='491' y='7631'>
               <zone h='91298' id='5' type-v2='layout-basic' w='89190' x='491' y='7631'>
-                <zone h='45648' id='14' name='Sales Over Time' w='46561' x='43120' y='7631'>
+                <zone h='45645' id='14' name='Sales Over Time' w='46562' x='43119' y='7631'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='solid' />
@@ -1367,7 +1379,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='45648' id='18' name=' Product Performance' w='42629' x='491' y='7631'>
+                <zone h='45645' id='18' name=' Product Performance' w='42628' x='491' y='7631'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='solid' />
@@ -1375,7 +1387,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='45650' id='20' name='Logistics and Returns' w='28993' x='491' y='53279'>
+                <zone h='45653' id='20' name='Logistics and Returns' w='28992' x='491' y='53276'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='solid' />
@@ -1383,7 +1395,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='45650' id='21' name='Profitability Analysis' w='29423' x='29484' y='53279'>
+                <zone h='45653' id='21' name='Profitability Analysis' w='29423' x='29483' y='53276'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='solid' />
@@ -1391,7 +1403,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='45650' id='16' name='Regional Sales Performance' w='30774' x='58907' y='53279'>
+                <zone h='45653' id='16' name='Regional Sales Performance' w='30775' x='58906' y='53276'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='solid' />
@@ -1562,7 +1574,7 @@
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.25' source-height='37'>
-    <window class='worksheet' name='Sales Over Time'>
+    <window class='worksheet' maximized='true' name='Sales Over Time'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1703,7 +1715,7 @@
       </cards>
       <simple-id uuid='{F919A2C3-7212-4478-8F57-56A219BD0C9C}' />
     </window>
-    <window class='dashboard' maximized='true' name='Sales_Data'>
+    <window class='dashboard' name='Sales_Data'>
       <viewpoints>
         <viewpoint name=' Product Performance'>
           <zoom type='entire-view' />
@@ -1722,7 +1734,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='18' />
+      <active id='6' />
       <device-preview visible='true' />
       <simple-id uuid='{B6196CF4-FDCD-4D14-A0CF-0049F70212DC}' />
     </window>
